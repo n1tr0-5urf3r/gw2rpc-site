@@ -1,6 +1,7 @@
-{% macro latest(date) -%}
+{% macro latest(date, version) -%}
 <details open>
-  <summary><h2>{{date}}</h></summary>
+  <summary><h2>{{version}}</h2></summary>
+  <small>{{date}}</small>
   {% for change in latestLog %}
   <p>{{change}}</p>
   {% endfor %}
