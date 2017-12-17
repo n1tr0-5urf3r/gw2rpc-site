@@ -1,8 +1,14 @@
-from flask import Flask, jsonify, render_template, send_file, abort
+from random import choice
+import os
+
+from flask import Flask, abort, jsonify, render_template, send_file
 
 app = Flask(__name__)
 
 CLIENT_VERSION = 0.3
+
+
+RANDOM_IMAGE_POOL = os.listdir("static/img/showcases/")
 
 version_dict = {"build": CLIENT_VERSION}
 
@@ -116,7 +122,8 @@ def support():
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    image_path = "static/img/showcases/" + choice(RANDOM_IMAGE_POOL)
+    return render_template('index.html', random_image=image_path)
 
 
 @app.route('/download/latest')
