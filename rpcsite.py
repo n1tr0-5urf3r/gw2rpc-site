@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, send_file, abort
 
 app = Flask(__name__)
 
@@ -117,6 +117,15 @@ def support():
 @app.route('/')
 def home():
     return render_template('index.html')
+
+
+@app.route('/download/latest')
+def download_latest():
+    path = "downloads/gw2rpc.7z"
+    try:
+        return send_file(path, as_attachment=True)
+    except:
+        return abort(400)
 
 
 if __name__ == "__main__":
