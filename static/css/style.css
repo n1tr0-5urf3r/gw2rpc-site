@@ -88,12 +88,19 @@ hr {
 article#changelog {
   width: 75%;
   margin: 0 auto; }
-  article#changelog ul {
-    display: inline;
-    list-style: none;
-    padding-left: 0; }
-    article#changelog ul li::before {
-      content: "- "; }
+  article#changelog summary {
+    display: inline-block;
+    cursor: pointer; }
+    article#changelog summary:hover {
+      color: #7289DA; }
+  article#changelog summary::-webkit-details-marker {
+    display: none; }
+  article#changelog h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 0; }
+  article#changelog p::before {
+    content: "- "; }
 
 article#usage {
   width: 75%;
