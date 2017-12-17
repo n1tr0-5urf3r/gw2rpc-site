@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
+{% import "changelog.html" as logs %}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="Muhammed Bacalan">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="../static/css/style.css">
   <title>Guild Wars 2 Rich Presence Addon</title>
@@ -11,8 +12,6 @@
 
 <body>
   <header>
-    <!-- <img src="../static/img/header.png" alt="Header image" id="header-lg" >
-    <img src="../static/img/headermob.png" alt="Header image" id="header-sm"> -->
     <ul id="nav">
       <li><a href="#home">Home</a></li>
       <li><a href="#changelog">Changelog</a></li>
@@ -51,13 +50,15 @@
 
   <article id="changelog">
       <h1>Changelog</h1>
-      <ul>
-        <li>Added malware</li>
-        <li>Added trojan</li>
-        <li>Added keylogger</li>
-        <li>Added l33t-h4x</li>
-        <li>Added memes</li>
-      </ul>
+      {{ logs.latest("17 December 2017") }}
+
+    <!--Example for past logs
+        <details>
+        <summary>date</summary>
+          <p>change1</p>
+          <p>change2</p>
+          <p>change3</p>
+      </details>-->
   </article>
 
   <footer>

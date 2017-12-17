@@ -1,0 +1,13 @@
+{% macro latest(date) -%}
+<details open>
+  <summary><h2>{{date}}</h></summary>
+  {% for change in latestLog %}
+  <p>{{change}}</p>
+  {% endfor %}
+</details>
+{%- endmacro %}
+
+{% set latestLog = [
+  ("added memes"),
+  ("added trojan")
+] -%}
