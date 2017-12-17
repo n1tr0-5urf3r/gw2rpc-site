@@ -55,7 +55,7 @@ main {
   padding-top: 5px;
   border-radius: 3px; }
 
-hr {
+hr, article#changelog hr {
   width: 80%;
   padding: 0;
   color: #7289DA; }
@@ -99,7 +99,7 @@ article#faq {
 article#changelog {
   width: 75%;
   margin: 0 auto;
-  margin-bottom: 50px; }
+  margin-bottom: 40px; }
   article#changelog summary {
     display: inline-block;
     cursor: pointer; }
@@ -111,8 +111,13 @@ article#changelog {
     font-size: 1.3em;
     font-weight: 600;
     margin: 0; }
+  article#changelog small {
+    display: block;
+    text-decoration: underline; }
   article#changelog p::before {
     content: "- "; }
+  article#changelog hr {
+    width: 50%; }
 
 footer {
   display: block;
