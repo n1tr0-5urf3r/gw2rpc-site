@@ -12,7 +12,7 @@ registry_dict = {
         35, 38, 39, 50, 51, 53, 54, 62, 65, 73, 91, 139, 218, 326, 350, 866,
         873, 895, 921, 929, 988, 1015, 1041, 1043, 1045, 1052, 1062, 1149,
         1155, 1156, 1165, 1175, 1178, 1185, 1188, 1195, 1203, 1206, 1210, 1211,
-        1226, 1228, 1248, 1263, 1264, 881, 878, 1270
+        1226, 1228, 1248, 1263, 1264, 881, 878, 1270, 650, 371, 647, 375, 248
     ],
     "special": {
         "Windswept Haven": "gh_haven",
@@ -88,8 +88,11 @@ registry_dict = {
         "Heart of Maguuma": "1045",
         "Ruins of Orr": "region_orr",
         "Maguuma Wastes": "1015",
+        "Maguuma Jungle": "54",
         "Wintersday Celebration": "wintersday_dr",
-        "World vs. World": "38"
+        "World vs. World": "38",
+        "Kryta": "24",
+        "Ring of Fire": "1175"
     }
 }
 
