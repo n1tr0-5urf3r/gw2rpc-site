@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-{% import "changelog.html" as logs %}
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="Author" content="Muhammed Bacalan">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
   <link rel="stylesheet" href="../static/css/style.css">
   <title>Guild Wars 2 Rich Presence Addon</title>
 </head>
@@ -13,9 +15,9 @@
 <body>
   <header>
     <ul id="nav">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#changelog">Changelog</a></li>
       <li><a href="#usage">Usage</a></li>
+      <li><a href="#faq">F.A.Q</a></li>
+      <li><a href="#changelog">Changelog</a></li>
     </ul>
   </header>
   <main id="home">
@@ -60,22 +62,50 @@
   <hr>
 
   <article id="changelog">
-      <h1>Changelog</h1>
-      {{ logs.latest("17 December 2017") }}
-
-    <!--Example for past logs
-        <details>
-        <summary>date</summary>
-          <p>change1</p>
-          <p>change2</p>
-          <p>change3</p>
+    <h1>Changelog</h1>
+    <!--Example log
+      <details> (add open for latest one)
+        <summary><h2>vX.Y</h2></summary>
+        <small>Date</small>
+          <p>Change 1</p>
+          <p>Change 2</p>
+          <p>Change 3</p>
       </details>-->
+    <details open>
+      <summary><h2>v0.3</h2></summary>
+      <small>14 December 2017</small>
+        <p>Added automatic update checking. Does not auto update!</p>
+        <p>Improved logging of errors</p>
+        <p>Added regions (default images for instances)</p>
+        <p>A notification should GW2RPC crash</p>
+        <p>Also, all wintersday activities now have images</p>
+    </details>
+    <hr>
+    <details>
+      <summary><h2>v0.2</h2></summary>
+      <small>12 December 2017</small>
+        <p>GW2RPC now resides in the system tray - there is no console window anymore.</p>
+        <p>With this update, there is a new .exe, called GW2_with_rpc.exe This is a convenience script to launch both GW2 and RPC in one click</p>
+        <p>For it to work, it needs to be present in %GW2FOLDER%\addons\gw2rpc\ along with gw2rpc.exe.</p>
+        <p>You can replace your normal GW2 shortcut with it for easy launch by rightclicking > create shortcut.</p>
+    </details>
+    <hr>
+    <details>
+        <summary><h2>v0.1</h2></summary>
+        <small>5 December 2017</small>
+          <p>New web registry - new maps can be added without needing to update the client</p>
+          <p>Which also means all raids are have working images now</p>
+          <p>Fractal name display in FOTM (Thanks to QuitarHero)</p>
+          <p>Performance improvements</p>
+    </details>
+    <hr>
   </article>
 
   <footer>
     <p><a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365,
       <a target="_blank" href="https://github.com/pen-mb/gw2rpc-site">website</a> by Penemue#8514.</p>
   </footer>
+
 </body>
 
 </html>
