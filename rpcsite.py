@@ -5,8 +5,7 @@ from flask import Flask, abort, jsonify, render_template, send_file
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 1.1
-
+CLIENT_VERSION = 1.2
 
 RANDOM_IMAGE_POOL = os.listdir("static/img/showcases/")
 
@@ -25,7 +24,6 @@ registry_dict = {
         "Gilded Hollow": "gh_hollow",
         "Lost Precipice": "gh_precipice",
         "Special Forces Training Area": "1155",
-        "Divinity's Reach": "wintersday_dr",
         "Snowball Mayhem": "wintersday_snowball",
         "Winter Wonderland": "wintersday_snowball"
     },

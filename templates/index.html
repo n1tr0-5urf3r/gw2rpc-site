@@ -13,7 +13,7 @@
   <meta name="author" content="Muhammed Bacalan">
   <meta name="description" content="A Guild Wars 2 addon to enable Discord Rich Presence support!">
   <title>Guild Wars 2 Rich Presence Addon</title>
-    <!-- Open Graph Tags -->
+  <!-- Open Graph Tags -->
   <meta property="og:title" content="Guild Wars 2 Discord Rich Presence Addon">
   <meta property="og:description" content="A Guild Wars 2 addon to enable Discord Rich Presence support!">
   <meta property="og:type" content="article">
@@ -24,13 +24,20 @@
 <body>
   <header>
     <ul id="nav">
-      <li><a href="#usage">Usage</a></li>
-      <li><a href="#faq">F.A.Q</a></li>
-      <li><a href="#changelog">Changelog</a></li>
+      <li>
+        <a href="#usage">Usage</a>
+      </li>
+      <li>
+        <a href="#faq">F.A.Q</a>
+      </li>
+      <li>
+        <a href="#changelog">Changelog</a>
+      </li>
     </ul>
   </header>
   <main id="home">
-    <h1>Discord Rich Presence<br> for Guild Wars 2</h1>
+    <h1>Discord Rich Presence
+      <br> for Guild Wars 2</h1>
     <img src="{{ random_image }}" alt="Showcasing screenshot" id="main-ss">
     <div id="features">
       <h2>Features</h2>
@@ -49,26 +56,34 @@
   <hr>
 
   <article id="usage">
-      <h1>Usage</h1>
-      <p>Simply run the gw2rpc.exe. It will start in your system tray.
-        It needs to be running in background for Rich Presence to work.</p>
-      <p>In the config.ini in the program's directory, you can input your API key so that your status can display region (EU/NA) and elite spec as well.</p>
-      <p>To make starting Rich Presence easier, in the download there is included
-        an .exe called launch_gw2_with_rpc.exe. This script launches both GW2
-        and the addon. For it to work, it needs to be present in
-        GW2FOLDER\addons\gw2rpc. You may then replace your normal
-        GW2 shortcut with it for ease of launching.</p>
-      <p>You can also put a shortcut to gw2rpc.exe into your autorun so that it runs automatically on Windows boot.</p>
-    </article>
+    <h1>Usage</h1>
+    <p>Simply run the gw2rpc.exe. It will start in your system tray. It needs to be running in background for Rich Presence
+      to work.</p>
+    <p>In the config.ini in the program's directory, you can input your API key so that your status can display region (EU/NA)
+      and elite spec as well.</p>
+    <p>To make starting Rich Presence easier, in the download there is included an .exe called launch_gw2_with_rpc.exe. This
+      script launches both GW2 and the addon. For it to work, it needs to be present in GW2FOLDER\addons\gw2rpc. You may
+      then replace your normal GW2 shortcut with it for ease of launching.</p>
+    <p>You can also put a shortcut to gw2rpc.exe into your autorun so that it runs automatically on Windows boot.</p>
+  </article>
 
   <hr>
 
   <article id="faq">
     <h1>F.A.Q</h1>
-    <p><strong>Q:</strong> Can I get banned for this?</p>
-    <p><strong>A:</strong> No, it doesn't interact with the game in any way - it utilizes the Mumble API to get the necessary data.</p>
-    <p><strong>Q:</strong> What API permissions are required for the API key?</p>
-    <p><strong>A:</strong> Currently characters, builds, and account are neccesary. In the future more may be added for more features.</p>
+    <p>
+      <strong>Q:</strong> Can I get banned for this?</p>
+    <p>
+      <strong>A:</strong> No, it doesn't interact with the game in any way - it utilizes the Mumble API to get the necessary data.</p>
+    <p>
+      <strong>Q:</strong> What API permissions are required for the API key?</p>
+    <p>
+      <strong>A:</strong> Currently characters, builds, and account are neccesary. In the future more may be added for more features.</p>
+    <p>
+      <strong>Q:</strong> How can i use command line arguments with launch_gw2_With_rpc.exe?</p>
+    <p>
+      <strong>A:</strong> Via a file called Settings.json. See the wiki
+      <a href="https://wiki.guildwars2.com/wiki/Command_line_arguments#Using_Command-Line_Arguments">here</a> for more info</p>
   </article>
 
   <hr>
@@ -84,61 +99,85 @@
           <p>Change 3</p>
       </details>-->
     <details open>
-      <summary><h2>v1.1</h2></summary>
+      <summary>
+        <h2>v1.2</h2>
+      </summary>
+      <small>14 January 2018</small>
+      <p>Fixed all known crashes</p>
+    </details>
+    <hr>
+    <details>
+      <summary>
+        <h2>v1.1</h2>
+      </summary>
       <small>29 December 2017</small>
-        <p>Add a setting to display guild tag next to character name - DisplayGuildTag under [Settings] header in config.ini</p>
-        <p>Add a setting to automatically close the program when GW2 exits - CloseWithGw2 under [Settings] header in config.ini</p>
-        <p>Fix for crash on certain instances</p>
-        <p>Fix for not properly exiting on crash</p>
+      <p>Add a setting to display guild tag next to character name - DisplayGuildTag under [Settings] header in config.ini</p>
+      <p>Add a setting to automatically close the program when GW2 exits - CloseWithGw2 under [Settings] header in config.ini</p>
+      <p>Fix for crash on certain instances</p>
+      <p>Fix for not properly exiting on crash</p>
     </details>
+    <hr>
     <details>
-      <summary><h2>v1.0</h2></summary>
+      <summary>
+        <h2>v1.0</h2>
+      </summary>
       <small>19 December 2017</small>
-        <p>First full release</p>
+      <p>First full release</p>
     </details>
     <hr>
     <details>
-      <summary><h2>v0.4</h2></summary>
+      <summary>
+        <h2>v0.4</h2>
+      </summary>
       <small>17 December 2017</small>
-        <p>Performance improvements</p>
-        <p>Region display (EU/NA) on hover</p>
-        <p>Expand context menu</p>
-        <p>Fix for status not updating under certain circumstances</p>
+      <p>Performance improvements</p>
+      <p>Region display (EU/NA) on hover</p>
+      <p>Expand context menu</p>
+      <p>Fix for status not updating under certain circumstances</p>
     </details>
     <hr>
     <details>
-      <summary><h2>v0.3</h2></summary>
+      <summary>
+        <h2>v0.3</h2>
+      </summary>
       <small>14 December 2017</small>
-        <p>Added automatic update checking. Does not auto update!</p>
-        <p>Improved logging of errors</p>
-        <p>Added regions (default images for instances)</p>
-        <p>A notification should GW2RPC crash</p>
-        <p>Also, all wintersday activities now have images</p>
+      <p>Added automatic update checking. Does not auto update!</p>
+      <p>Improved logging of errors</p>
+      <p>Added regions (default images for instances)</p>
+      <p>A notification should GW2RPC crash</p>
+      <p>Also, all wintersday activities now have images</p>
     </details>
     <hr>
     <details>
-      <summary><h2>v0.2</h2></summary>
+      <summary>
+        <h2>v0.2</h2>
+      </summary>
       <small>12 December 2017</small>
-        <p>GW2RPC now resides in the system tray - there is no console window anymore.</p>
-        <p>With this update, there is a new .exe, called GW2_with_rpc.exe This is a convenience script to launch both GW2 and RPC in one click</p>
-        <p>For it to work, it needs to be present in %GW2FOLDER%\addons\gw2rpc\ along with gw2rpc.exe.</p>
-        <p>You can replace your normal GW2 shortcut with it for easy launch by rightclicking > create shortcut.</p>
+      <p>GW2RPC now resides in the system tray - there is no console window anymore.</p>
+      <p>With this update, there is a new .exe, called GW2_with_rpc.exe This is a convenience script to launch both GW2 and
+        RPC in one click</p>
+      <p>For it to work, it needs to be present in %GW2FOLDER%\addons\gw2rpc\ along with gw2rpc.exe.</p>
+      <p>You can replace your normal GW2 shortcut with it for easy launch by rightclicking > create shortcut.</p>
     </details>
     <hr>
     <details>
-        <summary><h2>v0.1</h2></summary>
-        <small>5 December 2017</small>
-          <p>New web registry - new maps can be added without needing to update the client</p>
-          <p>Which also means all raids are have working images now</p>
-          <p>Fractal name display in FOTM (Thanks to QuitarHero)</p>
-          <p>Performance improvements</p>
+      <summary>
+        <h2>v0.1</h2>
+      </summary>
+      <small>5 December 2017</small>
+      <p>New web registry - new maps can be added without needing to update the client</p>
+      <p>Which also means all raids are have working images now</p>
+      <p>Fractal name display in FOTM (Thanks to QuitarHero)</p>
+      <p>Performance improvements</p>
     </details>
     <hr>
   </article>
 
   <footer>
-    <p><a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365 &amp; N1tR0#0914</p>
-    <p><a target="_blank" href="https://github.com/pen-mb/gw2rpc-site">Website</a> by Penemue#8514.</p>
+    <p>
+      <a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365 &amp; N1tR0#0914</p>
+    <p>
+      <a target="_blank" href="https://github.com/pen-mb/gw2rpc-site">Website</a> by Penemue#8514.</p>
   </footer>
 
 </body>
