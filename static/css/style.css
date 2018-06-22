@@ -17,6 +17,9 @@ header {
   margin: 0 auto;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
 #header-lg {
   display: none; }
 
@@ -36,8 +39,7 @@ header {
     #nav li a {
       color: white;
       text-align: center;
-      padding: 14px 16px;
-      text-decoration: none; }
+      padding: 14px 16px; }
       #nav li a:hover {
         background-color: #111; }
 
@@ -55,7 +57,7 @@ main {
   padding-top: 5px;
   border-radius: 3px; }
 
-hr, article#changelog hr {
+hr {
   width: 80%;
   padding: 0;
   color: #7289DA; }
@@ -82,7 +84,6 @@ hr, article#changelog hr {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  text-decoration: none;
   transition: 0.5s; }
   #download:hover {
     transition: 0.5s;
@@ -95,6 +96,8 @@ article#usage {
 article#faq {
   width: 75%;
   margin: 0 auto; }
+  article#faq a {
+    color: #7289DA; }
 
 article#changelog {
   width: 75%;
@@ -116,8 +119,9 @@ article#changelog {
     text-decoration: underline; }
   article#changelog p::before {
     content: "- "; }
-  article#changelog hr {
-    width: 50%; }
+  article#changelog details {
+    border-bottom: 2px solid #7289DA;
+    border-left-width: 50%; }
 
 footer {
   display: block;
