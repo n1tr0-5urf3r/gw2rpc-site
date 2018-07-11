@@ -47,7 +47,9 @@
         <li>Character class</li>
         <li>Current map</li>
         <li>Time spent on current map</li>
-        <li>Optional API key support</li>
+        <li>API key support</li>
+        <li>Show nearest point of interest on map image hover</li>
+        <li>Show the boss you're currently fighting in raids</li>
       </ul>
     </div>
     <a id="download" href="/download/latest">Download</a>
@@ -57,14 +59,23 @@
 
   <article id="usage">
     <h1>Usage</h1>
-    <p>Simply run the <strong><code>gw2rpc.exe</code></strong>. It will start in your system tray. It needs to be running in background for Rich Presence
-      to work.</p>
+    <p>Simply run the
+      <strong>
+        <code>gw2rpc.exe</code>
+      </strong>. It will start in your system tray. It needs to be running in background for Rich Presence to work.</p>
     <p>In the config.ini in the program's directory, you can input your API key so that your status can display region (EU/NA)
       and elite spec as well.</p>
-    <p>To make starting Rich Presence easier, there is an .exe called <strong><code>launch_gw2_with_rpc.exe</code></strong> included in the download. This
-      script launches both GW2 and the RPC addon. For it to work, it needs to be present in <strong><code>GW2FOLDER\addons\gw2rpc</code></strong>. You may
-      then replace your normal GW2 shortcut with it for ease of launching.</p>
-    <p>You can also put a shortcut to <strong><code>gw2rpc.exe</code></strong> into your autorun so that it runs automatically on Windows boot.</p>
+    <p>To make starting Rich Presence easier, there is an .exe called
+      <strong>
+        <code>launch_gw2_with_rpc.exe</code>
+      </strong> included in the download. This script launches both GW2 and the RPC addon. For it to work, it needs to be present in
+      <strong>
+        <code>GW2FOLDER\addons\gw2rpc</code>
+      </strong>. You may then replace your normal GW2 shortcut with it for ease of launching.</p>
+    <p>You can also put a shortcut to
+      <strong>
+        <code>gw2rpc.exe</code>
+      </strong> into your autorun so that it runs automatically on Windows boot.</p>
   </article>
 
   <hr>
@@ -84,12 +95,40 @@
     <p>
       <strong>A:</strong> Via a file called Settings.json. See the
       <a href="https://wiki.guildwars2.com/wiki/Command_line_arguments#Using_Command-Line_Arguments">wiki page</a> for more info.</p>
+    <p>
+      <strong>Q:</strong> Can I use multiple API keys if I have many accounts?</p>
+    <p>
+      <strong>A:</strong> You can use multiple API keys by separating them via comma in config.ini. No restart needed when switching
+      accounts
+    </p>
+    <p>
+      <strong>Q:</strong> Can I disable Points of Interest display?</p>
+    <p>
+      <strong>A:</strong> There are options in config.ini for disabling it either completely or in WvW</p>
+    <p>
+      <strong>Q:</strong> Is GW2RPC open source?</p>
+    <p>
+      <strong>A:</strong> Yes, repository is available
+      <a href="https://github.com/Maselkov/GW2RPC">here</a>
+    </p>
   </article>
 
   <hr>
 
   <article id="changelog">
     <h1>Changelog</h1>
+    <details open>
+      <summary>
+        <h2>v2.0</h2>
+      </summary>
+      <small>11 July 2018</small>
+      <p>Added raid mode</p>
+      <p>Added multi API key support by separating via comma</p>
+      <p>Added nearest point of interest display on map hover</p>
+      <p>Fixed status not properly clearing on exit</p>
+      <p>Fixed crashes</p>
+      <p>Update your config.ini to newest one!</p>
+    </details>
     <!--Example log
       <details> (add open for latest one)
         <summary><h2>vX.Y</h2></summary>
@@ -98,7 +137,7 @@
           <p>Change 2</p>
           <p>Change 3</p>
       </details>-->
-    <details open>
+    <details>
       <summary>
         <h2>v1.2</h2>
       </summary>
