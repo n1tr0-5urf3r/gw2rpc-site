@@ -236,6 +236,17 @@ registry_dict = {
             "radius": 160,
             "height": 110
         }]
+        "1303": [{
+			"id": "conjured_amalgamate",
+			"type": "boss",
+			"coord": [14199.68, 15899.78],
+			"radius": 128
+		}, {
+			"id": "twin_largos",
+			"type": "boss",
+			"coord": [14937.7, 15332.13],
+			"radius": 452
+		}]
     }
 }
 
