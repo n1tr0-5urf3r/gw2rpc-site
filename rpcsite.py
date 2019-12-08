@@ -18,7 +18,8 @@ registry_dict = {
         873, 895, 921, 929, 988, 1015, 1041, 1043, 1045, 1052, 1062, 1149,
         1155, 1156, 1165, 1175, 1178, 1185, 1188, 1195, 1203, 1206, 1210, 1211,
         1226, 1228, 1248, 1263, 1264, 881, 878, 1270, 650, 371, 647, 375, 248,
-        1271, 935, 895, 934, 1288, 918, 929, 922, 1301, 1303, 1306, 1323, 1332
+        1271, 935, 895, 934, 1288, 918, 929, 922, 1301, 1303, 1306, 1323, 1331, 
+	1332, 1339, 1340, 1341, 1344, 1346, 1351
     ],
     "special": {
         "Windswept Haven": "gh_haven",
@@ -258,11 +259,53 @@ registry_dict = {
 	    "coord": [19947.41, 8259.2],
 	    "radius": 115
 	}],
-	"1332": [{
+	"1331": [{
             "id": "legendary_icebrood_construct",
             "type": "boss",
             "coord": [26878.71, 2804.46],
             "radius": 85
+        } ],
+        "1332": [{
+            "id": "legendary_icebrood_construct",
+            "type": "boss",
+            "coord": [26878.71, 2804.46],
+            "radius": 85
+        } ],
+        "1339": [{
+            "id": "boneskinner",
+            "type": "boss",
+            "coord": [24481.37, 1625.59],
+            "radius": 65
+        } ],
+        "1340": [{
+            "id": "voice_and_claw_of_the_fallen",
+            "type": "boss",
+            "coord": [24484.52, 1626.85],
+            "radius": 65
+        } ],
+        "1341": [{
+            "id": "fraenir_of_jormag",
+            "type": "boss",
+            "coord": [24482.74, 1625.22],
+            "radius": 65
+        } ],
+        "1344": [{
+            "id": "fraenir_of_jormag",
+            "type": "boss",
+            "coord": [24482.74, 1625.22],
+            "radius": 65
+        } ],
+        "1346": [{
+            "id": "voice_and_claw_of_the_fallen",
+            "type": "boss",
+            "coord": [24484.52, 1626.85],
+            "radius": 65
+        } ],
+        "1351: [{
+            "id": "boneskinner",
+            "type": "boss",
+            "coord": [24481.37, 1625.59],
+            "radius": 65
         } ]
     }
 }
