@@ -19,7 +19,7 @@ registry_dict = {
         1155, 1156, 1165, 1175, 1178, 1185, 1188, 1195, 1203, 1206, 1210, 1211,
         1226, 1228, 1248, 1263, 1264, 881, 878, 1270, 650, 371, 647, 375, 248,
         1271, 935, 895, 934, 1288, 918, 929, 922, 1301, 1303, 1306, 1323, 1331, 
-	1332, 1339, 1340, 1341, 1344, 1346, 1351
+	      1332, 1339, 1340, 1341, 1344, 1346, 1351
     ],
     "special": {
         "Windswept Haven": "gh_haven",
@@ -237,29 +237,45 @@ registry_dict = {
             "radius": 160,
             "height": 110
         }],
-        "1303": [{
-	    "id": "conjured_amalgamate",
-	    "type": "boss",
-	    "coord": [14199.68, 15899.78],
-	    "radius": 90
-	}, {
-	    "id": "twin_largos",
-	    "type": "boss",
-	    "coord": [14937.7, 15332.13],
-	    "radius": 275
-	}, {
-	    "id": "qadim",
-	    "type": "boss",
-	    "coord": [14030, 14857],
-	    "radius": 225
-	}],
-	"1306": [{
-	    "id": "freezie",
-	    "type": "boss",
-	    "coord": [19947.41, 8259.2],
-	    "radius": 115
-	}],
-	"1331": [{
+            "1303": [{
+            "id": "conjured_amalgamate",
+            "type": "boss",
+            "coord": [14199.68, 15899.78],
+            "radius": 90
+        }, {
+            "id": "twin_largos",
+            "type": "boss",
+            "coord": [14937.7, 15332.13],
+            "radius": 275
+        }, {
+            "id": "qadim",
+            "type": "boss",
+            "coord": [14030, 14857],
+            "radius": 225
+        }],
+        "1306": [{
+            "id": "freezie",
+            "type": "boss",
+            "coord": [19947.41, 8259.2],
+            "radius": 115
+        }],
+        "1323": [{
+            "id": "cardinal_sabir",
+            "type": "boss",
+            "coord": [33903.69, 34940.87],
+            "radius": 180
+        }, {
+            "id": "cardinal_adina",
+            "type": "boss",
+            "coord": [35047.23, 35135.78],
+            "radius": 60
+        }, {
+            "id": "qadim_the_peerless",
+            "type": "boss",
+            "coord": [34494.02, 34654.03],
+            "radius": 115
+        }],
+        "1331": [{
             "id": "legendary_icebrood_construct",
             "type": "boss",
             "coord": [26878.71, 2804.46],
