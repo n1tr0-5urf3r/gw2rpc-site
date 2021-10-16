@@ -89,7 +89,7 @@ registry_dict = {
     }, {
         "id": 1267,
         "name": "Twilight Oasis"
-    }, {{
+    }, {
         "id": 1290,
         "name": "Deepstone"
     }],
