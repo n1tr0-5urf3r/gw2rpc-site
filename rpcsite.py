@@ -84,6 +84,9 @@ registry_dict = {
         "id": 1205,
         "name": "Shattered Observatory"
     }, {
+        "id": 1206,
+        "name": "Mistlock Sanctuary"
+    }, {
         "id": 1267,
         "name": "Twilight Oasis"
     }, {
@@ -451,6 +454,10 @@ registry_dict_v2 = {
                     "radius": 1878
                 }
             ]
+        },
+        {
+        "id": 1206,
+        "name": "Mistlock Sanctuary"
         },
         {
             "id": 1267,
