@@ -871,6 +871,28 @@ registry_dict_v2 = {
                 "type": "boss"
             }
         ],
+        "1357": [
+            {
+                "coord": [
+                    23017,
+                    2786
+                ],
+                "id": "whisper_of_jormag",
+                "radius": 50,
+                "type": "boss"
+            }
+        ],
+        "1359": [
+            {
+                "coord": [
+                    23017,
+                    2786
+                ],
+                "id": "whisper_of_jormag",
+                "radius": 50,
+                "type": "boss"
+            }
+        ],
         "1351": [
             {
                 "coord": [
