@@ -939,6 +939,17 @@ registry_dict_v2 = {
         "1243": "gh_haven",
         "1250": "gh_haven"
     },
+    "mounts": {
+        1: "Jackal",
+        2: "Griffon",
+        3: "Springer",
+        4: "Skimmer",
+        5: "Raptor",
+        6: "Roller Beetle",
+        7: "Warclaw",
+        8: "Skyscale",
+        10: "Siege Turtle"
+    },
     "valid": [
         15,
         17,
