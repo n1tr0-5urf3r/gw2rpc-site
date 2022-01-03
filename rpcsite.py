@@ -1,7 +1,7 @@
 from random import choice
 import os
 
-from flask import Flask, abort, jsonify, render_template, send_file
+from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
@@ -940,15 +940,15 @@ registry_dict_v2 = {
         "1250": "gh_haven"
     },
     "mounts": {
-        1: "Jackal",
-        2: "Griffon",
-        3: "Springer",
-        4: "Skimmer",
-        5: "Raptor",
-        6: "Roller Beetle",
-        7: "Warclaw",
-        8: "Skyscale",
-        10: "Siege Turtle"
+        1: "jackal",
+        2: "griffon",
+        3: "springer",
+        4: "skimmer",
+        5: "raptor",
+        6: "roller beetle",
+        7: "warclaw",
+        8: "skyscale",
+        10: "siege turtle"
     },
     "valid": [
         15,
@@ -1084,6 +1084,11 @@ def home():
     image_path = "static/img/showcases/" + choice(RANDOM_IMAGE_POOL)
     return render_template('index.html', random_image=image_path)
 
+@app.route('/copy-paste')
+def copy_paste():
+    chat_code = request.args.get('chat_code', type = str)
+    name = request.args.get('name', type = str)
+    return render_template('copy_paste.html', chat_code=chat_code, name=name)
 
 @app.route('/download/latest')
 def download_latest():

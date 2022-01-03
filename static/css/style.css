@@ -74,7 +74,7 @@ hr {
     #features ul li::before {
       content: "- "; }
 
-#download {
+#download, #copy {
   display: inline-block;
   font-size: 1.75rem;
   margin-bottom: 5px;
@@ -85,9 +85,16 @@ hr {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s; }
-  #download:hover {
+  #download:hover, #copy:hover {
     transition: 0.5s;
     background-color: #F6F6F7; }
+
+  #chatcode {
+    width: 350px; 
+    height: 80px; 
+    text-align: center;
+    font-size: 18px;
+  }
 
 article#usage {
   width: 75%;

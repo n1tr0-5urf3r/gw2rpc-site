@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+  <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#343A40">
+  <meta name="author" content="Muhammed Bacalan">
+  <meta name="description" content="A Guild Wars 2 addon to enable Discord Rich Presence support!">
+  <title>Guild Wars 2 Rich Presence Addon</title>
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Guild Wars 2 Discord Rich Presence Addon">
+  <meta property="og:description" content="A Guild Wars 2 addon to enable Discord Rich Presence support!">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="http://www.gw2rpc.info">
+  <meta property="og:image" content="https://gw2rpc.info/static/img/logo.png">
+</head>
+<body>
+  <script>
+    function copyToClipBoard() {
+    var copyText = document.getElementById("chatcode");
+
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
+
+    /* Alert the copied text */
+    alert("Copied the text: " + copyText.value);
+    }     
+  </script>
+  <header>
+    <ul id="nav">
+      <li>
+        <a href="https://gw2rpc.info/#usage">Usage</a>
+      </li>
+      <li>
+        <a href="https://gw2rpc.info/#faq">F.A.Q</a>
+      </li>
+      <li>
+        <a href="https://gw2rpc.info/#changelog">Changelog</a>
+      </li>
+    </ul>
+  </header>
+  <main id="home">
+    <h1>Discord Rich Presence 
+      <br> for Guild Wars 2</h1>
+      <hr>
+      <h2>Chat-Code copy paste</h2>
+      <p>Click the button below to copy the waypoint chatcode to your clipboard and paste it to the ingame chat.</p>
+      <textarea cols='60' rows='2' id="chatcode" disabled>{{ name }}:&#13;&#10; {{ chat_code }}</textarea>
+      <br><br>
+      <button id="copy" onclick="copyToClipBoard()">Copy to clipboard</button> 
+      <br><br>
+  </main>
+  <footer>
+    <p>
+      <a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365 &amp; N1tR0#0914</p>
+    <p>
+      <a target="_blank" href="https://github.com/mbacalan/gw2rpc-site">Website</a> by Penemue#8514.</p>
+    <p>
+      Translations by N1tr0 (de), Seshu (de), TheRaytheone (es), z0n3g (fr)</p>
+  </footer>
+
+</body>
+
+</html>
