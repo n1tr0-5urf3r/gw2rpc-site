@@ -937,7 +937,16 @@ registry_dict_v2 = {
         "1232": "gh_haven",
         "1224": "gh_haven",
         "1243": "gh_haven",
-        "1250": "gh_haven"
+        "1250": "gh_haven",
+        "1331": "strike_shiverpeaks_pass",
+        "1332": "strike_shiverpeaks_pass",
+        "1339": "strike_sanctum_arena",
+        "1340": "strike_sanctum_arena",
+        "1341": "strike_sanctum_arena",
+        "1344": "strike_sanctum_arena",
+        "1346": "strike_sanctum_arena",
+        "1357": "strike_jormag",
+        "1359": "strike_jormag"
     },
     "mounts": {
         1: "jackal",
@@ -1033,6 +1042,7 @@ registry_dict_v2 = {
         1301,
         1303,
         1306,
+        1317,
         1323,
         1330,
         1331,
