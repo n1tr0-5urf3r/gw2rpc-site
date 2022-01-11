@@ -94,6 +94,9 @@ hr {
     height: 80px; 
     text-align: center;
     font-size: 18px;
+    background: white;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
 article#usage {
