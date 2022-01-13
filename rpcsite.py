@@ -385,7 +385,17 @@ registry_dict_v2 = {
         },
         {
             "id": 959,
-            "name": "Molten Boss"
+            "name": "Molten Boss",
+            "bosses": [
+                {
+                    "name": "Molten Berserker and Firestorm",
+                    "coord": [
+                        5493.12,
+                        -4471.18
+                    ],
+                    "radius": 1266
+                }
+            ]
         },
         {
             "id": 960,
@@ -483,7 +493,25 @@ registry_dict_v2 = {
         },
         {
             "id": 1309,
-            "name": "Siren's Reef"
+            "name": "Siren's Reef",
+            "bosses": [
+                {
+                    "name": "Blasting Black Peter",
+                    "coord": [
+                        4136.4,
+                        12539.9
+                    ],
+                    "radius": 1726
+                },
+                {
+                    "name": "Arabella Crowe",
+                    "coord": [
+                        -6757.73,
+                        3787.74
+                    ],
+                    "radius": 4437
+                }
+            ]
         }
     ],
     "raids": {
@@ -946,7 +974,10 @@ registry_dict_v2 = {
         "1344": "strike_sanctum_arena",
         "1346": "strike_sanctum_arena",
         "1357": "strike_jormag",
-        "1359": "strike_jormag"
+        "1359": "strike_jormag",
+        "1409": "dragonstorm",
+        "1410": "dragonstorm",
+        "1411": "dragonstorm"
     },
     "mounts": {
         1: "jackal",
