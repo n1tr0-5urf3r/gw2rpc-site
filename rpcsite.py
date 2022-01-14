@@ -345,7 +345,17 @@ registry_dict_v2 = {
         },
         {
             "id": 949,
-            "name": "Swampland"
+            "name": "Swampland",
+            "bosses": [
+                {
+                    "name": "Bloomhunger",
+                    "coord": [
+                        -4622,
+                        -5250
+                    ],
+                    "radius": 2445
+                }
+            ]
         },
         {
             "id": 950,
@@ -381,14 +391,24 @@ registry_dict_v2 = {
         },
         {
             "id": 958,
-            "name": "Solid Ocean"
+            "name": "Solid Ocean",
+            "bosses": [
+                {
+                    "name": "Jade Maw",
+                    "coord": [
+                        30124,
+                        31762
+                    ],
+                    "radius": 1969
+                }
+            ]
         },
         {
             "id": 959,
             "name": "Molten Boss",
             "bosses": [
                 {
-                    "name": "Molten Berserker and Firestorm",
+                    "name": "Berserker and Firestorm",
                     "coord": [
                         5493.12,
                         -4471.18
@@ -475,7 +495,33 @@ registry_dict_v2 = {
         },
         {
             "id": 1290,
-            "name": "Deepstone"
+            "name": "Deepstone",
+            "bosses": [
+                {
+                    "name": "Brood Queen",
+                    "coord": [
+                        8534,
+                        -4505
+                    ],
+                    "radius": 1031
+                },
+                {
+                    "name": "Deepstone Sentinel",
+                    "coord": [
+                        -2634,
+                        168
+                    ],
+                    "radius": 1014
+                },
+                {
+                    "name": "The Voice",
+                    "coord": [
+                        700,
+                        12184
+                    ],
+                    "radius": 2588
+                }
+            ]
         },
         {
             "id": 1384,
