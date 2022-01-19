@@ -1021,6 +1021,8 @@ registry_dict_v2 = {
         "1346": "strike_sanctum_arena",
         "1357": "strike_jormag",
         "1359": "strike_jormag",
+        "1374": "strike_cold_war",
+        "1376": "strike_cold_war",
         "1409": "dragonstorm",
         "1410": "dragonstorm",
         "1411": "dragonstorm"
@@ -1175,7 +1177,8 @@ def home():
 def copy_paste():
     chat_code = request.args.get('chat_code', type = str)
     name = request.args.get('name', type = str)
-    return render_template('copy_paste.html', chat_code=chat_code, name=name)
+    character = request.args.get('character', type = str)
+    return render_template('copy_paste.html', chat_code=chat_code, name=name, character=character)
 
 @app.route('/download/latest')
 def download_latest():

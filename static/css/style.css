@@ -89,7 +89,7 @@ hr {
     transition: 0.5s;
     background-color: #F6F6F7; }
 
-  #chatcode {
+  #chatcode, #chatcode_whisper {
     width: 350px; 
     height: 80px; 
     text-align: center;
