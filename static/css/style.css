@@ -99,6 +99,10 @@ hr {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
+  #desc {
+    margin: 30px;
+  }
+
 article#usage {
   width: 75%;
   margin: 0 auto; }

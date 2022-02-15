@@ -47,13 +47,16 @@
         <li>Character class</li>
         <li>Current map</li>
         <li>Time spent on current map</li>
+        <li>Mount and combat status</li>
+        <li>Active commander tag</li>
         <li>API key support</li>
+        <li>Multiboxing support</li>
         <li>Show nearest point of interest on map image hover</li>
-        <li>Show the boss you're currently fighting in raids</li>
+        <li>Show the boss you're currently fighting in raids and fractals</li>
       </ul>
     </div>
     <a id="download" href="/download/latest">Download</a>
-    <p>MD5-Sum: b3ace79e72a644a562b58c748a050379</p>
+    <p>MD5-Sum: e220b2d9148f2daf701b8e38bca3c9c3</p>
   </main>
 
   <hr>
@@ -100,7 +103,7 @@
       <strong>Q:</strong> Can I use multiple API keys if I have many accounts?</p>
     <p>
       <strong>A:</strong> You can use multiple API keys by separating them via comma in config.ini. No restart needed when switching
-      accounts
+      accounts.
     </p>
     <p>
       <strong>Q:</strong> Can I disable Points of Interest display?</p>
@@ -112,6 +115,12 @@
       <strong>A:</strong> Yes, repository is available
       <a href="https://github.com/Maselkov/GW2RPC">here</a>
     </p>
+    <p>
+      <strong>Q:</strong> How do I set up multiboxing?</p>
+    <p>
+      <strong>A:</strong> Use the
+      <a href="https://wiki.guildwars2.com/wiki/Command_line_arguments#-mumble_.3Cstring.3E"> -mumble config parameter</a> for GW2. This can also easily be set up in GW2Launcher.
+    </p>
   </article>
 
   <hr>
@@ -119,6 +128,25 @@
   <article id="changelog">
     <h1>Changelog</h1>
     <details open> 
+      <summary><h2>v2.3</h2></summary>
+      <small>18 February 2022</small>
+      <p>Multiboxing support: Every instance has to have an unqiue MumbleLink ID, which can be specified with the `-mumble` config parameter. This can also be activated in the settings of gw2launcher. (Thanks to writzx)</p>
+      <p>Return to "in character selection" if you log out from a character and remain in character selection. Previously this was stuck on displaying the last played character until you log in with another one. (Thanks to PR from BenLubar)</p>
+      <p>Display an emoji (⚔️) behind your character name if you are currently in combat in game.</p>
+      <p>Display currently used mount, can be deactivated in config file.</p>
+      <p>Display a button in Discord, which leads you to a website for easily copy-pasting the chat link of the closest point of interest next to you for others. as well as a whisper string. Can be deactivated in config file.</p>
+      <p>Display fractal (CM) boss images</p>
+      <p>Only one instance of `gw2rpc.exe` will be active at a time now. If you start it again and another instance is already running, it will terminate.</p>
+      <p>Fixed a crash with malformed json data</p>
+      <p>Fixed a crash when quickly switching between multiboxed instances (Thanks to Breaking)</p>
+      <p>Fixed a crash when connection to GW2 API or GW2RPC API could not be established due to client side limitations (proxy or firewall) (Thanks to TEnn)</p>
+      <p>Fixed a crash when GW2 crashes (Thanks to Rengo)</p>
+      <p>Fix timestamps / duration of fractal boss encounters (Thanks to Trinterin)</p>
+      <p>Fixed images for strike bosses (API)</p>
+      <p>Added images for Dragonfall, Dragonstorm, Cold War (API)</p>
+      <p>Updated translations</p>
+    </details>
+    <details> 
       <summary><h2>v2.2</h2></summary>
       <small>17 December 2021</small>
       <p>Added commander mode. Configurable in config</p>

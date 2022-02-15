@@ -5,7 +5,7 @@ from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 2.2
+CLIENT_VERSION = 2.3
 
 RANDOM_IMAGE_POOL = os.listdir("static/img/showcases/")
 
@@ -1182,7 +1182,7 @@ def copy_paste():
 
 @app.route('/download/latest')
 def download_latest():
-    path = "downloads/gw2rpc.7z"
+    path = "downloads/gw2rpc.zip"
     try:
         return send_file(path, as_attachment=True)
     except:
