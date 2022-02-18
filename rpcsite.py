@@ -1,5 +1,7 @@
 from random import choice
 import os
+import hashlib
+from functools import partial
 
 from flask import Flask, abort, jsonify, render_template, send_file, request
 
@@ -1171,7 +1173,11 @@ def support_v2():
 @app.route('/')
 def home():
     image_path = "static/img/showcases/" + choice(RANDOM_IMAGE_POOL)
-    return render_template('index.html', random_image=image_path)
+    try:
+        md5_sum = md5sum("downloads/gw2rpc.zip")
+    except FileNotFoundError:
+        md5_sum = ""
+    return render_template('index.html', random_image=image_path, md5_sum=md5_sum)
 
 @app.route('/copy-paste')
 def copy_paste():
@@ -1188,6 +1194,12 @@ def download_latest():
     except:
         return abort(400)
 
+def md5sum(filename):
+    with open(filename, mode='rb') as f:
+        d = hashlib.md5()
+        for buf in iter(partial(f.read, 128), b''):
+            d.update(buf)
+    return d.hexdigest()
 
 if __name__ == "__main__":
     app.run()
