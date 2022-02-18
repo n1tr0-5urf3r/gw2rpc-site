@@ -60,11 +60,11 @@
     <h4>Closest Point of Interest</h4>
     <textarea cols='60' rows='2' id="chatcode" disabled>{{ name }}:&#13;&#10; {{ chat_code }}</textarea>
     <br><br>
-    <button id="copy" onclick="copyToClipBoard('chatcode')">Copy to clipboard</button>
+    <button class="copy" onclick="copyToClipBoard('chatcode')">Copy to clipboard</button>
     <h4>Whisper</h4>
     <textarea cols='60' rows='2' id="chatcode_whisper" disabled>/w {{ character }}</textarea>
     <br><br>
-    <button id="copy" onclick="copyToClipBoard('chatcode_whisper')">Copy to clipboard</button>
+    <button class="copy" onclick="copyToClipBoard('chatcode_whisper')">Copy to clipboard</button>
     <br><br>
     <div id="snackbar"></div>
   </main>
