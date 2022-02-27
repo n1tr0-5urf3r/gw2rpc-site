@@ -1128,6 +1128,7 @@ registry_dict_v2 = {
         6: "roller beetle",
         7: "warclaw",
         8: "skyscale",
+        9: "skiff",
         10: "siege turtle"
     },
     "valid": [
