@@ -343,7 +343,25 @@ registry_dict_v2 = {
         },
         {
             "id": 948,
-            "name": "Snowblind"
+            "name": "Snowblind",
+            "bosses": [
+                {
+                    "name": "Elemental Source",
+                    "coord": [
+                        -3447,
+                        -4795
+                    ],
+                    "radius": 2490
+                },
+                {
+                    "name": "Lornarr Dragonseeker",
+                    "coord": [
+                        7166,
+                        -2435
+                    ],
+                    "radius": 1034
+                }
+            ]
         },
         {
             "id": 949,
@@ -385,7 +403,17 @@ registry_dict_v2 = {
         },
         {
             "id": 956,
-            "name": "Aetherblade"
+            "name": "Aetherblade",
+            "bosses": [
+                {
+                    "name": "Frizz",
+                    "coord": [
+                        -3198,
+                        6580
+                    ],
+                    "radius": 830
+                }
+            ]
         },
         {
             "id": 957,
@@ -421,11 +449,39 @@ registry_dict_v2 = {
         },
         {
             "id": 960,
-            "name": "Mai Trin"
+            "name": "Mai Trin fractal",
+            "bosses": [
+                {
+                    "name": "Captain Mai Trin",
+                    "coord": [
+                        -1152,
+                        -2649
+                    ],
+                    "radius": 1082
+                }
+            ]
         },
         {
             "id": 1164,
-            "name": "Chaos"
+            "name": "Chaos",
+            "bosses": [
+                {
+                    "name": "Anomaly",
+                    "coord": [
+                        221,
+                        -5790
+                    ],
+                    "radius": 1547
+                },
+                {
+                    "name": "Brazen Gladiator",
+                    "coord": [
+                        2429,
+                        4504
+                    ],
+                    "radius": 1270
+                }
+            ]
         },
         {
             "id": 1177,
@@ -493,7 +549,41 @@ registry_dict_v2 = {
         },
         {
             "id": 1267,
-            "name": "Twilight Oasis"
+            "name": "Twilight Oasis",
+            "bosses": [
+                {
+                    "name": "Amala",
+                    "coord": [
+                        7639,
+                        -1252
+                    ],
+                    "radius": 1400
+                },
+                {
+                    "name": "a sandbinder",
+                    "coord": [
+                       815,
+                       1322
+                    ],
+                    "radius": 655
+                },
+                {
+                    "name": "a sandbinder",
+                    "coord": [
+                       5808,
+                       3626
+                    ],
+                    "radius": 500
+                },
+                {
+                    "name": "a sandbinder",
+                    "coord": [
+                       1009,
+                       2501
+                    ],
+                    "radius": 500
+                }
+            ]
         },
         {
             "id": 1290,
