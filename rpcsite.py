@@ -1082,7 +1082,8 @@ registry_dict_v2 = {
         "3": "region_orr",
         "1": "region_shiverpeaks",
         "27": "wintersday_dr",
-        "7": "38"
+        "7": "38",
+        "37": "region_cantha"
     },
     "special": {
         "1068": "gh_hollow",
@@ -1104,6 +1105,15 @@ registry_dict_v2 = {
         "1224": "gh_haven",
         "1243": "gh_haven",
         "1250": "gh_haven",
+        "1456": "gh_reflection",
+        "1444": "gh_reflection",
+        "1459": "gh_reflection",
+        "1462": "gh_reflection",
+        "1463": "gh_reflection",
+        "1435": "gh_reflection",
+        "1419": "gh_reflection",
+        "1426": "gh_reflection",
+        "1430": "gh_reflection",
         "1331": "strike_shiverpeaks_pass",
         "1332": "strike_shiverpeaks_pass",
         "1339": "strike_sanctum_arena",
@@ -1117,7 +1127,11 @@ registry_dict_v2 = {
         "1376": "strike_cold_war",
         "1409": "dragonstorm",
         "1410": "dragonstorm",
-        "1411": "dragonstorm"
+        "1411": "dragonstorm",
+        "1450": "strike_xunlai",
+        "1451": "strike_kaineng",
+        "1432": "strike_aetherblade",
+        "1437": "strike_harvest"
     },
     "mounts": {
         1: "jackal",
@@ -1227,7 +1241,12 @@ registry_dict_v2 = {
         1346,
         1351,
         1370,
-        1371
+        1371,
+        1442,
+        1452,
+        1422,
+        1428,
+        1438
     ]
 }
 
