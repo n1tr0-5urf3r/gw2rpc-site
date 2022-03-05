@@ -51,6 +51,7 @@
         <li>Active commander tag</li>
         <li>API key support</li>
         <li>Multiboxing support</li>
+        <li>Automatic Discord webhook raid announcer</li>
         <li>Show nearest point of interest on map image hover</li>
         <li>Show the boss you're currently fighting in raids and fractals</li>
         <li>Language support for en, es, fr, de</li>
@@ -122,13 +123,31 @@
       <strong>A:</strong> Use the
       <a href="https://wiki.guildwars2.com/wiki/Command_line_arguments#-mumble_.3Cstring.3E"> -mumble config parameter</a> for GW2. This can also easily be set up in GW2Launcher.
     </p>
+    <p>
+      <strong>Q:</strong> How do I set up the raid announcer?
+    </p>
+    <p>
+      <strong>A:</strong> Create a <a href="https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks">Discord webhook</a> for your channel and enter the URL in the config.ini after 'webhooks = '. Several webhooks can be specified by separating them with a comma. Make sure that AnnounceRaids is set to true in the config.
+    </p>
+    <p>
+      <strong>Q:</strong> How do I disable a set up Raid announcer?
+    </p>
+    <p>
+      <strong>A:</strong> Right click the GW2RPC tray icon and click on "Announce Raids:" to toggle it on and off.
+    </p>
   </article>
 
   <hr>
 
   <article id="changelog">
     <h1>Changelog</h1>
-    <details open> 
+    <details open>
+      <summary><h2>v2.35</h2></summary>
+        <small>05 March 2022</small>
+        <p>Added Discord Webhook Raid Announcer</p>
+        <p>Fixed a crash when flying a jade bot</p>
+      </details>
+    <details> 
       <summary><h2>v2.3</h2></summary>
       <small>18 February 2022</small>
       <p>Multiboxing support: Every instance has to have an unqiue MumbleLink ID, which can be specified with the `-mumble` config parameter. This can also be activated in the settings of gw2launcher. (Thanks to writzx)</p>
