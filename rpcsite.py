@@ -655,419 +655,419 @@ registry_dict_v2 = {
     "raids": {
         "1062": [
             {
-                "coord": [
-                    3896.16,
-                    13533.7
-                ],
-                "id": "vale_guardian",
-                "radius": 66,
-                "type": "boss"
+            "coord": [
+                36664.16,
+                29917.7
+            ],
+            "id": "vale_guardian",
+            "radius": 66,
+            "type": "boss"
             },
             {
-                "coord": [
-                    3777.57,
-                    12873.72
-                ],
-                "height": 95,
-                "id": "spirit_woods",
-                "radius": 200,
-                "type": "event"
+            "coord": [
+                36545.57,
+                29257.72
+            ],
+            "height": 95,
+            "id": "spirit_woods",
+            "radius": 200,
+            "type": "event"
             },
             {
-                "coord": [
-                    3913.19,
-                    13121.69
-                ],
-                "id": "spirit_woods",
-                "radius": 229,
-                "type": "event"
+            "coord": [
+                36681.19,
+                29505.690000000002
+            ],
+            "id": "spirit_woods",
+            "radius": 229,
+            "type": "event"
             },
             {
-                "coord": [
-                    4164.36,
-                    12861.2
-                ],
-                "id": "gorseval",
-                "radius": 135,
-                "type": "boss"
+            "coord": [
+                36932.36,
+                29245.2
+            ],
+            "id": "gorseval",
+            "radius": 135,
+            "type": "boss"
             },
             {
-                "coord": [
-                    3883.09,
-                    12540.5
-                ],
-                "id": "sabetha",
-                "radius": 142,
-                "type": "boss"
+            "coord": [
+                36651.09,
+                28924.5
+            ],
+            "id": "sabetha",
+            "radius": 142,
+            "type": "boss"
             }
         ],
         "1149": [
             {
-                "coord": [
-                    3529.07,
-                    13061.6
-                ],
-                "id": "slothasor",
-                "radius": 85,
-                "type": "boss"
+            "coord": [
+                36297.07,
+                29445.6
+            ],
+            "id": "slothasor",
+            "radius": 85,
+            "type": "boss"
             },
             {
-                "coord": [
-                    3125.1,
-                    13482.6
-                ],
-                "id": "bandit_trio",
-                "radius": 242,
-                "type": "boss"
+            "coord": [
+                35893.1,
+                29866.6
+            ],
+            "id": "bandit_trio",
+            "radius": 242,
+            "type": "boss"
             },
             {
-                "coord": [
-                    2952.57,
-                    12812.4
-                ],
-                "id": "matthias",
-                "radius": 60,
-                "type": "boss"
+            "coord": [
+                35720.57,
+                29196.4
+            ],
+            "id": "matthias",
+            "radius": 60,
+            "type": "boss"
             }
         ],
         "1156": [
             {
-                "coord": [
-                    2487.41,
-                    12396.86
-                ],
-                "id": "escort",
-                "radius": 400,
-                "type": "event"
+            "coord": [
+                35255.41,
+                28780.86
+            ],
+            "id": "escort",
+            "radius": 400,
+            "type": "event"
             },
             {
-                "coord": [
-                    2274.07,
-                    12620.67
-                ],
-                "id": "escort",
-                "radius": 70,
-                "type": "event"
+            "coord": [
+                35042.07,
+                29004.67
+            ],
+            "id": "escort",
+            "radius": 70,
+            "type": "event"
             },
             {
-                "coord": [
-                    2272.88,
-                    12921.2
-                ],
-                "id": "keep_construct",
-                "radius": 55,
-                "type": "boss"
+            "coord": [
+                35040.88,
+                29305.2
+            ],
+            "id": "keep_construct",
+            "radius": 55,
+            "type": "boss"
             },
             {
-                "coord": [
-                    2307.28,
-                    13443.8
-                ],
-                "id": "xera",
-                "radius": 120,
-                "type": "boss"
+            "coord": [
+                35075.28,
+                29827.8
+            ],
+            "id": "xera",
+            "radius": 120,
+            "type": "boss"
             },
             {
-                "coord": [
-                    2284.78,
-                    13304.88
-                ],
-                "height": 400,
-                "id": "twisted_castle",
-                "radius": 315,
-                "type": "event"
+            "coord": [
+                35052.78,
+                29688.879999999997
+            ],
+            "height": 400,
+            "id": "twisted_castle",
+            "radius": 315,
+            "type": "event"
             }
         ],
         "1188": [
             {
-                "coord": [
-                    13524.2,
-                    4907.92
-                ],
-                "id": "cairn",
-                "radius": 58,
-                "type": "boss"
+            "coord": [
+                46292.2,
+                21291.92
+            ],
+            "id": "cairn",
+            "radius": 58,
+            "type": "boss"
             },
             {
-                "coord": [
-                    13035.1,
-                    4826.37
-                ],
-                "id": "mursaat_overseer",
-                "radius": 75,
-                "type": "boss"
+            "coord": [
+                45803.1,
+                21210.37
+            ],
+            "id": "mursaat_overseer",
+            "radius": 75,
+            "type": "boss"
             },
             {
-                "coord": [
-                    12758.9,
-                    4862.04
-                ],
-                "id": "samarog",
-                "radius": 91,
-                "type": "boss"
+            "coord": [
+                45526.9,
+                21246.04
+            ],
+            "id": "samarog",
+            "radius": 91,
+            "type": "boss"
             },
             {
-                "coord": [
-                    12574.7,
-                    4863.54
-                ],
-                "id": "deimos",
-                "radius": 92,
-                "type": "boss"
+            "coord": [
+                45342.7,
+                21247.54
+            ],
+            "id": "deimos",
+            "radius": 92,
+            "type": "boss"
             }
         ],
         "1264": [
             {
-                "coord": [
-                    19525.71,
-                    15960.45
-                ],
-                "id": "soulless_horror",
-                "radius": 71,
-                "type": "boss"
+            "coord": [
+                52293.71,
+                32344.45
+            ],
+            "id": "soulless_horror",
+            "radius": 71,
+            "type": "boss"
             },
             {
-                "coord": [
-                    20017.4,
-                    16041.15
-                ],
-                "id": "river_of_souls",
-                "radius": 160,
-                "type": "event"
+            "coord": [
+                52785.4,
+                32425.15
+            ],
+            "id": "river_of_souls",
+            "radius": 160,
+            "type": "event"
             },
             {
-                "coord": [
-                    20209.9,
-                    15944.31
-                ],
-                "id": "river_of_souls",
-                "radius": 75,
-                "type": "event"
+            "coord": [
+                52977.9,
+                32328.309999999998
+            ],
+            "id": "river_of_souls",
+            "radius": 75,
+            "type": "event"
             },
             {
-                "coord": [
-                    19747.75,
-                    15962.24
-                ],
-                "id": "river_of_souls",
-                "radius": 150,
-                "type": "event"
+            "coord": [
+                52515.75,
+                32346.239999999998
+            ],
+            "id": "river_of_souls",
+            "radius": 150,
+            "type": "event"
             },
             {
-                "coord": [
-                    20166.29,
-                    15649.43
-                ],
-                "id": "broken_king",
-                "radius": 90,
-                "type": "boss"
+            "coord": [
+                52934.29,
+                32033.43
+            ],
+            "id": "broken_king",
+            "radius": 90,
+            "type": "boss"
             },
             {
-                "coord": [
-                    20093.32,
-                    16318.5
-                ],
-                "id": "eater_of_souls",
-                "radius": 75,
-                "type": "boss"
+            "coord": [
+                52861.32,
+                32702.5
+            ],
+            "id": "eater_of_souls",
+            "radius": 75,
+            "type": "boss"
             },
             {
-                "coord": [
-                    20624.24,
-                    15966.28
-                ],
-                "id": "dhuum",
-                "radius": 105,
-                "type": "boss"
+            "coord": [
+                53392.240000000005,
+                32350.28
+            ],
+            "id": "dhuum",
+            "radius": 105,
+            "type": "boss"
             },
             {
-                "coord": [
-                    20565.93,
-                    15955.36
-                ],
-                "height": 110,
-                "id": "statue_of_darkness",
-                "radius": 160,
-                "type": "boss"
+            "coord": [
+                53333.93,
+                32339.36
+            ],
+            "height": 110,
+            "id": "statue_of_darkness",
+            "radius": 160,
+            "type": "boss"
             }
         ],
         "1303": [
             {
-                "coord": [
-                    14199.68,
-                    15899.78
-                ],
-                "id": "conjured_amalgamate",
-                "radius": 90,
-                "type": "boss"
+            "coord": [
+                46967.68,
+                32283.78
+            ],
+            "id": "conjured_amalgamate",
+            "radius": 90,
+            "type": "boss"
             },
             {
-                "coord": [
-                    14937.7,
-                    15332.13
-                ],
-                "id": "twin_largos",
-                "radius": 275,
-                "type": "boss"
+            "coord": [
+                47705.7,
+                31716.129999999997
+            ],
+            "id": "twin_largos",
+            "radius": 275,
+            "type": "boss"
             },
             {
-                "coord": [
-                    14030,
-                    14857
-                ],
-                "id": "qadim",
-                "radius": 225,
-                "type": "boss"
+            "coord": [
+                46798,
+                31241
+            ],
+            "id": "qadim",
+            "radius": 225,
+            "type": "boss"
             }
         ],
         "1306": [
             {
-                "coord": [
-                    19947.41,
-                    8259.2
-                ],
-                "id": "freezie",
-                "radius": 115,
-                "type": "boss"
+            "coord": [
+                52715.41,
+                24643.2
+            ],
+            "id": "freezie",
+            "radius": 115,
+            "type": "boss"
             }
         ],
         "1323": [
             {
-                "coord": [
-                    33903.69,
-                    34940.87
-                ],
-                "id": "cardinal_sabir",
-                "radius": 180,
-                "type": "boss"
+            "coord": [
+                66671.69,
+                51324.87
+            ],
+            "id": "cardinal_sabir",
+            "radius": 180,
+            "type": "boss"
             },
             {
-                "coord": [
-                    35047.23,
-                    35135.78
-                ],
-                "id": "cardinal_adina",
-                "radius": 60,
-                "type": "boss"
+            "coord": [
+                67815.23000000001,
+                51519.78
+            ],
+            "id": "cardinal_adina",
+            "radius": 60,
+            "type": "boss"
             },
             {
-                "coord": [
-                    34494.02,
-                    34654.03
-                ],
-                "id": "qadim_the_peerless",
-                "radius": 115,
-                "type": "boss"
+            "coord": [
+                67262.01999999999,
+                51038.03
+            ],
+            "id": "qadim_the_peerless",
+            "radius": 115,
+            "type": "boss"
             }
         ],
         "1331": [
             {
-                "coord": [
-                    26878.71,
-                    2804.46
-                ],
-                "id": "legendary_icebrood_construct",
-                "radius": 85,
-                "type": "boss"
+            "coord": [
+                59646.71,
+                19188.46
+            ],
+            "id": "legendary_icebrood_construct",
+            "radius": 85,
+            "type": "boss"
             }
         ],
         "1332": [
             {
-                "coord": [
-                    26878.71,
-                    2804.46
-                ],
-                "id": "legendary_icebrood_construct",
-                "radius": 85,
-                "type": "boss"
+            "coord": [
+                59646.71,
+                19188.46
+            ],
+            "id": "legendary_icebrood_construct",
+            "radius": 85,
+            "type": "boss"
             }
         ],
         "1339": [
             {
-                "coord": [
-                    24481.37,
-                    1625.59
-                ],
-                "id": "boneskinner",
-                "radius": 65,
-                "type": "boss"
+            "coord": [
+                57249.369999999995,
+                18009.59
+            ],
+            "id": "boneskinner",
+            "radius": 65,
+            "type": "boss"
             }
         ],
         "1340": [
             {
-                "coord": [
-                    24484.52,
-                    1626.85
-                ],
-                "id": "voice_and_claw_of_the_fallen",
-                "radius": 65,
-                "type": "boss"
+            "coord": [
+                57252.520000000004,
+                18010.85
+            ],
+            "id": "voice_and_claw_of_the_fallen",
+            "radius": 65,
+            "type": "boss"
             }
         ],
         "1341": [
             {
-                "coord": [
-                    24482.74,
-                    1625.22
-                ],
-                "id": "fraenir_of_jormag",
-                "radius": 65,
-                "type": "boss"
+            "coord": [
+                57250.740000000005,
+                18009.22
+            ],
+            "id": "fraenir_of_jormag",
+            "radius": 65,
+            "type": "boss"
             }
         ],
         "1344": [
             {
-                "coord": [
-                    24482.74,
-                    1625.22
-                ],
-                "id": "fraenir_of_jormag",
-                "radius": 65,
-                "type": "boss"
+            "coord": [
+                57250.740000000005,
+                18009.22
+            ],
+            "id": "fraenir_of_jormag",
+            "radius": 65,
+            "type": "boss"
             }
         ],
         "1346": [
             {
-                "coord": [
-                    24484.52,
-                    1626.85
-                ],
-                "id": "voice_and_claw_of_the_fallen",
-                "radius": 65,
-                "type": "boss"
-            }
-        ],
-        "1357": [
-            {
-                "coord": [
-                    23017,
-                    2786
-                ],
-                "id": "whisper_of_jormag",
-                "radius": 50,
-                "type": "boss"
-            }
-        ],
-        "1359": [
-            {
-                "coord": [
-                    23017,
-                    2786
-                ],
-                "id": "whisper_of_jormag",
-                "radius": 50,
-                "type": "boss"
+            "coord": [
+                57252.520000000004,
+                18010.85
+            ],
+            "id": "voice_and_claw_of_the_fallen",
+            "radius": 65,
+            "type": "boss"
             }
         ],
         "1351": [
             {
-                "coord": [
-                    24481.37,
-                    1625.59
-                ],
-                "id": "boneskinner",
-                "radius": 65,
-                "type": "boss"
+            "coord": [
+                57249.369999999995,
+                18009.59
+            ],
+            "id": "boneskinner",
+            "radius": 65,
+            "type": "boss"
+            }
+        ],
+        "1357": [
+            {
+            "coord": [
+                55785,
+                19170
+            ],
+            "id": "whisper_of_jormag",
+            "radius": 50,
+            "type": "boss"
+            }
+        ],
+        "1359": [
+            {
+            "coord": [
+                55785,
+                19170
+            ],
+            "id": "whisper_of_jormag",
+            "radius": 50,
+            "type": "boss"
             }
         ]
     },
