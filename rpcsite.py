@@ -395,7 +395,25 @@ registry_dict_v2 = {
         },
         {
             "id": 954,
-            "name": "Volcanic"
+            "name": "Volcanic",
+            "bosses": [
+                {
+                    "name": "Grawl Shaman",
+                    "coord": [
+                        7756,
+                        -27275
+                    ],
+                    "radius": 1475
+                },
+                {
+                    "name": "Imbued Shaman",
+                    "coord": [
+                        9919,
+                        -31756
+                    ],
+                    "radius": 1491
+                }
+            ]
         },
         {
             "id": 955,
@@ -417,7 +435,25 @@ registry_dict_v2 = {
         },
         {
             "id": 957,
-            "name": "Thaumanova Reactor"
+            "name": "Thaumanova Reactor",
+            "bosses": [
+                {
+                    "name": "Subject 6",
+                    "coord": [
+                        4569,
+                        5542
+                    ],
+                    "radius": 1349
+                },
+                {
+                    "name": "Thaumanova Anomaly",
+                    "coord": [
+                        21,
+                        -18
+                    ],
+                    "radius": 737
+                }
+            ]
         },
         {
             "id": 958,
@@ -1068,6 +1104,26 @@ registry_dict_v2 = {
             "id": "whisper_of_jormag",
             "radius": 50,
             "type": "boss"
+            }
+        ],
+        "1451": [
+            {
+                "coord":[
+                    26025,
+                    99989
+                ],
+                "id": "minister_li",
+                "radius": 49,
+                "type": "boss"
+            },
+            {
+                "coord":[
+                    25956,
+                    100040
+                ],
+                "id": "minister_li",
+                "radius": 30,
+                "type": "boss"
             }
         ]
     },
