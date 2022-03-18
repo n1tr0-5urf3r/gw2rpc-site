@@ -383,15 +383,45 @@ registry_dict_v2 = {
         },
         {
             "id": 951,
-            "name": "Aquatic Ruins"
+            "name": "Aquatic Ruins",
+            "bosses": [
+                {
+                    "name": "Jellyfish Beast",
+                    "coord": [
+                        -3041,
+                        -788
+                    ],
+                    "radius": 1769
+                }
+            ]
         },
         {
             "id": 952,
-            "name": "Cliffside"
+            "name": "Cliffside",
+            "bosses": [
+                {
+                    "name": "Archdiviner",
+                    "coord": [
+                        4960,
+                        -400
+                    ],
+                    "radius": 938
+                }
+            ]
         },
         {
             "id": 953,
-            "name": "Underground Facility"
+            "name": "Underground Facility",
+            "bosses": [
+                {
+                    "name": "in Weapon Testing Area",
+                    "coord": [
+                        -9176,
+                        790
+                    ],
+                    "radius": 1453
+                }
+            ]
         },
         {
             "id": 954,
