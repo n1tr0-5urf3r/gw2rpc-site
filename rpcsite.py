@@ -265,6 +265,11 @@ registry_dict = {
             "radius": 115
         }],
         "1323": [{
+            "id": "gate",
+            "type": "event",
+            "coord": [67264, 51980],
+            "radius": 206
+        }, {
             "id": "cardinal_sabir",
             "type": "boss",
             "coord": [33903.69, 34940.87],
@@ -379,7 +384,17 @@ registry_dict_v2 = {
         },
         {
             "id": 950,
-            "name": "Urban Battleground"
+            "name": "Urban Battleground",
+            "bosses": [
+                {
+                    "name": "Captain Ashym",
+                    "coord": [
+                        7229,
+                        31804
+                    ],
+                    "radius": 888
+                }
+            ]
         },
         {
             "id": 951,
@@ -414,12 +429,20 @@ registry_dict_v2 = {
             "name": "Underground Facility",
             "bosses": [
                 {
-                    "name": "in Weapon Testing Area",
+                    "name": "Rabsovich",
                     "coord": [
-                        -9176,
-                        790
+                        25545,
+                        4908
                     ],
-                    "radius": 1453
+                    "radius": 1000
+                },
+                {
+                    "name": "Rampaging Ice Elemental or Dredge Powersuit",
+                    "coord": [
+                        32588,
+                        7262
+                    ],
+                    "radius": 12720
                 }
             ]
         },
@@ -447,7 +470,17 @@ registry_dict_v2 = {
         },
         {
             "id": 955,
-            "name": "Molten Furnace"
+            "name": "Molten Furnace",
+            "bosses": [
+                {
+                    "name": "in Weapon Testing Facility",
+                    "coord": [
+                        -9176,
+                        790
+                    ],
+                    "radius": 1453
+                }
+            ]
         },
         {
             "id": 956,
@@ -997,7 +1030,12 @@ registry_dict_v2 = {
             "type": "boss"
             }
         ],
-        "1323": [
+        "1323": [{
+            "id": "gate",
+            "type": "event",
+            "coord": [67264, 51980],
+            "radius": 206
+            },
             {
             "coord": [
                 66671.69,
