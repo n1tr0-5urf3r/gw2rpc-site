@@ -439,10 +439,10 @@ registry_dict_v2 = {
                 {
                     "name": "Rampaging Ice Elemental or Dredge Powersuit",
                     "coord": [
-                        32588,
-                        7262
+                        32808,
+                        7128
                     ],
-                    "radius": 12720
+                    "radius": 3022
                 }
             ]
         },
