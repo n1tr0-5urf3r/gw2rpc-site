@@ -344,7 +344,29 @@ registry_dict_v2 = {
         },
         {
             "id": 947,
-            "name": "Uncategorized"
+            "name": "Uncategorized",
+            "bosses": [
+                {
+                    "name": "Old Tom",
+                    "coord": [
+                        -30047,
+                        -27511,
+                        828 
+                    ],
+                    "radius": 1495,
+                    "height": 10
+                },
+                {
+                    "name": "Raving Asura",
+                    "coord": [
+                        -29928,
+                        -27528,
+                        850
+                    ],
+                    "radius": 1000,
+                    "height": 10
+                }
+            ]
         },
         {
             "id": 948,
