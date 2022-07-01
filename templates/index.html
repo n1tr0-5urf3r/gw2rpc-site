@@ -53,14 +53,19 @@
         <li>Multiboxing support</li>
         <li>Automatic Discord webhook raid announcer</li>
         <li>Show nearest point of interest on map image hover</li>
-        <li>Show the boss you're currently fighting in raids and fractals</li>
-        <li>Language support for en, es, fr, de</li>
+        <li>Show the boss you're currently fighting in raids, fractals and strikes</li>
+        <li>Language support for en, es, fr, de, pt-br</li>
       </ul>
     </div>
-    <a id="download" href="/download/latest">Download</a>
+    <a id="download" href="https://github.com/Maselkov/GW2RPC/releases/latest/download/gw2rpc_installer.exe">Download Installer</a>
+    <a id="download" href="https://github.com/Maselkov/GW2RPC/releases/latest/download/gw2rpc.zip">Download zip</a>
     <p>MD5-Sum: {{ md5_sum }}</p>
   </main>
 
+  <hr>
+    <h1>Showcase</h1>
+    <iframe width="612" height="660" src="https://www.youtube.com/embed/ZQn2eZ1qRI0?autoplay=1&mute=1&loop=1&playlist=ZQn2eZ1qRI0" title="Guild Wars 2 - Rich Presence v2.5" frameborder="0" allow="loop; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br><br><br>
   <hr>
 
   <article id="usage">
@@ -105,7 +110,7 @@
       <strong>Q:</strong> Can I use multiple API keys if I have many accounts?</p>
     <p>
       <strong>A:</strong> You can use multiple API keys by separating them via comma in config.ini. No restart needed when switching
-      accounts.
+      accounts. They are only necessary to get your guild and region (EU/NA) and are optional.
     </p>
     <p>
       <strong>Q:</strong> Can I disable Points of Interest display?</p>
@@ -133,7 +138,7 @@
       <strong>Q:</strong> How do I disable a set up Raid announcer?
     </p>
     <p>
-      <strong>A:</strong> Right click the GW2RPC tray icon and click on "Announce Raids:" to toggle it on and off.
+      <strong>A:</strong> Right click the GW2RPC tray icon and click on "Announce Raids:" to toggle it on and off. This option is only available if a webhook is configured.
     </p>
   </article>
 
@@ -142,6 +147,19 @@
   <article id="changelog">
     <h1>Changelog</h1>
     <details open>
+      <summary><h2>v2.5</h2></summary>
+        <small>1 July 2022</small>
+        <p>Now displaying nearly in real-time</p>
+        <p>More performance through caching of many API calls</p>
+        <p>pt-br locale added</p>
+        <p>Translations updated</p>
+        <p>All fractal bosses included</p>
+        <p>Debugging mode added: Config flag `loglevel`</p>
+        <p>Fixed a crash if config does not exist</p>
+        <p>Fixed a crash of malformed config files</p>
+        <p>Fixed a crash of different capitalization of Gw2-64.exe</p>
+      </details>
+    <details>
       <summary><h2>v2.35</h2></summary>
         <small>05 March 2022</small>
         <p>Added Discord Webhook Raid Announcer</p>
@@ -283,7 +301,7 @@
     <p>
       <a target="_blank" href="https://github.com/mbacalan/gw2rpc-site">Website</a> by Penemue#8514.</p>
     <p>
-      Translations by N1tr0 (de), Seshu (de), TheRaytheone (es), z0n3g (fr)</p>
+      Translations by N1tr0 (de), Seshu (de), TheRaytheone (es), z0n3g (fr), Komashi (pt-br)</p>
   </footer>
 
 </body>
