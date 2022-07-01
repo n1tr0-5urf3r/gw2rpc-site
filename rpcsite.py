@@ -7,7 +7,7 @@ from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 2.35
+CLIENT_VERSION = 2.5
 
 RANDOM_IMAGE_POOL = os.listdir("static/img/showcases/")
 
