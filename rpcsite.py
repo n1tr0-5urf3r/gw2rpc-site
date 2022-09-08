@@ -747,6 +747,30 @@ registry_dict_v2 = {
                         1398.67
                     ],
                     "radius": 1434
+                },
+                {
+                    "name": "Voice of the Mountain",
+                    "coord": [
+                        -4068,
+                        -7961
+                    ],
+                    "radius": 960
+                },
+                {
+                    "name": "Sorrow of the Mountain",
+                    "coord": [
+                        -2881,
+                        -1242
+                    ],
+                    "radius": 1295
+                },
+                {
+                    "name": "Fury of the Mountain",
+                    "coord": [
+                        -532,
+                        3842
+                    ],
+                    "radius": 870
                 }
             ]
         },
@@ -1214,6 +1238,17 @@ registry_dict_v2 = {
                 "id": "minister_li",
                 "radius": 30,
                 "type": "boss"
+            }
+        ],
+        "1437": [
+            {
+            "coord": [
+                34174,
+                104607
+            ],
+            "id": "dragon_void",
+            "radius": 60,
+            "type": "boss"
             }
         ]
     },
