@@ -1312,7 +1312,9 @@ registry_dict_v2 = {
         "1450": "strike_xunlai",
         "1451": "strike_kaineng",
         "1432": "strike_aetherblade",
-        "1437": "strike_harvest"
+        "1437": "strike_harvest",
+        "943": "tower_of_nightmares",
+        "1477": "tower_of_nightmares"
     },
     "mounts": {
         1: "jackal",
