@@ -1052,7 +1052,7 @@ registry_dict_v2 = {
                 47335.6,
                 32278.21
             ],
-            "id": "sorting_and_appraisal",,
+            "id": "sorting_and_appraisal",
             "radius": 237,
             "type": "event"
             },
