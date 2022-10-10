@@ -7,9 +7,9 @@ from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 2.5
+CLIENT_VERSION = 2.51
 
-RANDOM_IMAGE_POOL = os.listdir("static/img/showcases/")
+RANDOM_IMAGE_POOL = os.listdir("/var/www/html/gw2rpc-site/static/img/showcases/")
 
 version_dict = {"build": CLIENT_VERSION}
 
@@ -20,8 +20,8 @@ registry_dict = {
         873, 895, 921, 929, 988, 1015, 1041, 1043, 1045, 1052, 1062, 1149,
         1155, 1156, 1165, 1175, 1178, 1185, 1188, 1195, 1203, 1206, 1210, 1211,
         1226, 1228, 1248, 1263, 1264, 881, 878, 1270, 650, 371, 647, 375, 248,
-        1271, 935, 895, 934, 1288, 918, 929, 922, 968, 1301, 1303, 1306, 1323, 1331,
-        1332, 1339, 1340, 1341, 1344, 1346, 1351, 1310
+        1271, 935, 895, 934, 1288, 918, 929, 922, 1301, 1303, 1306, 1323, 1331,
+        1332, 1339, 1340, 1341, 1344, 1346, 1351, 968, 1310
     ],
     "special": {
         "Windswept Haven": "gh_haven",
@@ -248,6 +248,11 @@ registry_dict = {
             "coord": [14199.68, 15899.78],
             "radius": 90
         }, {
+            "id": "sorting_and_appraisal",
+            "type": "event",
+            "coord": [47335.6, 32278.21],
+            "radius": 237
+        },{
             "id": "twin_largos",
             "type": "boss",
             "coord": [14937.7, 15332.13],
@@ -1220,6 +1225,28 @@ registry_dict_v2 = {
             "type": "boss"
             }
         ],
+        "1432": [
+            {
+                "coord":[
+                    23838,
+                    102570
+                ],
+                "id": "echo_of_scarlet_briar",
+                "radius": 27,
+                "type": "boss"
+            }
+        ],
+        "1450": [
+            {
+                "coord":[
+                    30992,
+                    102126
+                ],
+                "id": "ankka",
+                "radius": 150,
+                "type": "boss"
+            }
+        ],
         "1451": [
             {
                 "coord":[
@@ -1313,8 +1340,8 @@ registry_dict_v2 = {
         "1451": "strike_kaineng",
         "1432": "strike_aetherblade",
         "1437": "strike_harvest",
-        "943": "tower_of_nightmares",
-        "1477": "tower_of_nightmares"
+	"943": "tower_of_nightmares",
+	"1477": "tower_of_nightmares"
     },
     "mounts": {
         1: "jackal",
@@ -1367,7 +1394,7 @@ registry_dict_v2 = {
         895,
         921,
         929,
-        968,
+	968,
         988,
         1015,
         1041,
@@ -1412,7 +1439,7 @@ registry_dict_v2 = {
         1301,
         1303,
         1306,
-        1310,
+	    1310,
         1317,
         1323,
         1330,
