@@ -247,12 +247,8 @@ registry_dict = {
             "type": "boss",
             "coord": [14199.68, 15899.78],
             "radius": 90
-        }, {
-            "id": "sorting_and_appraisal",
-            "type": "event",
-            "coord": [47335.6, 32278.21],
-            "radius": 237
-        },{
+        },
+        {
             "id": "twin_largos",
             "type": "boss",
             "coord": [14937.7, 15332.13],
@@ -1053,6 +1049,15 @@ registry_dict_v2 = {
             },
             {
             "coord": [
+                47335.6,
+                32278.21
+            ],
+            "id": "sorting_and_appraisal",,
+            "radius": 237,
+            "type": "event"
+            },
+            {
+            "coord": [
                 47705.7,
                 31716.129999999997
             ],
@@ -1243,7 +1248,7 @@ registry_dict_v2 = {
                     102126
                 ],
                 "id": "ankka",
-                "radius": 150,
+                "radius": 500,
                 "type": "boss"
             }
         ],
