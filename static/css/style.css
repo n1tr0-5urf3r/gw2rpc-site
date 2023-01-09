@@ -1,5 +1,5 @@
 html {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
   font-size: 10px;
   background-color: #343A40;
   position: relative;
@@ -74,7 +74,7 @@ hr {
     #features ul li::before {
       content: "- "; }
 
-#download, .copy {
+#download, #copy {
   display: inline-block;
   font-size: 1.75rem;
   margin-bottom: 5px;
@@ -85,7 +85,7 @@ hr {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.5s; }
-  #download:hover, .copy:hover {
+  #download:hover, #copy:hover {
     transition: 0.5s;
     background-color: #F6F6F7; }
 
@@ -101,6 +101,37 @@ hr {
 
   #desc {
     margin: 30px;
+  }
+
+  .button--paypal {
+    background: #0079c1;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.2),0 1px 4px rgba(0,0,0,.1),0 0 5px rgba(0,0,0,.05);
+    border-radius: 21.5px;
+    padding: 9px 24px;
+    border: 0;
+    border-radius: 18px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 auto;
+    outline: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    font-size: 2rem;
+    line-height: 25px;
+  }
+
+  .button--paypal::before {
+    
+  }
+
+  .button--paypal:hover {
+    background: #007ac1bd;
   }
 
 article#usage {
@@ -171,23 +202,27 @@ footer {
   main {
     width: 500px; } }
 
+ /* The snackbar - position it at the bottom and in the middle of the screen */
  #snackbar {
-  visibility: hidden; 
-  min-width: 250px; 
-  margin-left: -125px; 
-  background-color: #333; 
-  color: #fff; 
-  text-align: center; 
-  border-radius: 2px; 
-  padding: 16px; 
-  position: fixed; 
-  z-index: 1; 
-  left: 50%;
-  bottom: 30px; 
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background-color: #333; /* Black background color */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  border-radius: 2px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
 }
 
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
 #snackbar.show {
-  visibility: visible; 
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+  However, delay the fade out process for 2.5 seconds */
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
   animation: fadein 0.5s, fadeout 0.5s 2.5s;
 }

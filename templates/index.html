@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
@@ -62,8 +63,8 @@
     </div>
     <a id="download" href="https://github.com/Maselkov/GW2RPC/releases/latest/download/gw2rpc_installer.exe">Download Installer</a>
     <a id="download" href="https://github.com/Maselkov/GW2RPC/releases/latest/download/gw2rpc.zip">Download zip</a>
-    <p>MD5 Installer: 1dd0a5a595966114eaf8ff7baf27a608</p>
-    <p>MD5 zip: 7e9ed1d4b42faa770ce1a3c1b8d06fda</p>
+    <p>MD5 Installer: 9007aefef34fb61d60fefc31d0d6d25d</p>
+    <p>MD5 zip: f1c4545502241d61854c747c94968a37</p>
   </main>
 
   <hr>
@@ -93,6 +94,12 @@
       </strong> into your autorun so that it runs automatically on Windows boot.</p>
   </article>
 
+  <hr>
+    <h1>Contribute</h1>
+    <p>GW2RPC will remain free to use and continues to run with kind donations and volunteer contributions.</p>
+    <p>If you enjoy using GW2RPC, please consider donating to fund future development!</p>
+    <a class="button--paypal" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=UEBHM63V547KN" target="_blank"><i class="fa fa-paypal"></i> Donate with PayPal</a>
+  </p>
   <hr>
 
   <article id="faq">
@@ -151,6 +158,17 @@
   <article id="changelog">
     <h1>Changelog</h1>
     <details open>
+      <summary><h2>v2.52</h2></summary>
+      <small>9 January 2023</small>
+      <p>Fixed a crash if discord is started after GW2RPC which only occured occasionally</p>
+      <p>Fixed a crash if character and instance name exceed 128 bytes</p>
+      <p>Fixed a crash if discord is started after GW2RPC</p>
+      <p>Updated dependencies</p>
+      <p>Updates Discord SDK lib</p>
+      <p>Updated translations</p>
+      <p>GW2RPC installer now autodetects install dir of GW2</p>
+    </details>
+    <details>
       <summary><h2>v2.51</h2></summary>
       <small>4 July 2022</small>
       <p>Reduced CPU usage by a lot</p>
@@ -160,9 +178,9 @@
         <small>1 July 2022</small>
         <p>Now displaying nearly in real-time</p>
         <p>More performance through caching of many API calls</p>
-        <p>pt-br locale added</p>
+        <p>pt-br locale added (Thanks to Komashi)</p>
         <p>Translations updated</p>
-        <p>All fractal bosses included</p>
+        <p>All fractal bosses included (Thanks to Poiison)</p>
         <p>Debugging mode added: Config flag `loglevel`</p>
         <p>Fixed a crash if config does not exist</p>
         <p>Fixed a crash of malformed config files</p>
@@ -316,3 +334,4 @@
 </body>
 
 </html>
+
