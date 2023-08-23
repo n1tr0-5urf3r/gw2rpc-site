@@ -796,7 +796,23 @@ registry_dict_v2 = {
                     "radius": 4437
                 }
             ]
-        }
+        },
+        {
+            "id": 1500,
+            "name": "Silent Surf",
+            "bosses": [
+                {
+                    "name": "Kanaxai",
+                    "coord": [
+                        -2962,
+                        2682,
+                        100
+                    ],
+                    "radius": 3350,
+                    "height": 20
+                }
+            ]
+        },
     ],
     "raids": {
         "1062": [
@@ -1282,6 +1298,17 @@ registry_dict_v2 = {
             "radius": 60,
             "type": "boss"
             }
+        ],
+        "1485": [
+            {
+            "coord": [
+                16385,
+                14914
+            ],
+            "id": "watchknight_triumvirate",
+            "radius": 60,
+            "type": "boss"
+            }
         ]
     },
     "regions": {
@@ -1400,7 +1427,7 @@ registry_dict_v2 = {
         895,
         921,
         929,
-	968,
+	    968,
         988,
         1015,
         1041,
@@ -1465,7 +1492,8 @@ registry_dict_v2 = {
         1422,
         1428,
         1438,
-        1465
+        1465,
+        1490
     ]
 }
 
