@@ -1309,6 +1309,28 @@ registry_dict_v2 = {
             "radius": 60,
             "type": "boss"
             }
+        ],
+        "1515": [
+            {
+            "coord": [
+                23858,
+                22867
+            ],
+            "id": "dagda",
+            "radius": 60,
+            "type": "boss"
+            }
+        ],
+        "1520": [
+            {
+            "coord": [
+                22238,
+                23508
+            ],
+            "id": "cerus",
+            "radius": 90,
+            "type": "boss"
+            }
         ]
     },
     "regions": {
@@ -1323,7 +1345,8 @@ registry_dict_v2 = {
         "1": "region_shiverpeaks",
         "27": "wintersday_dr",
         "7": "38",
-        "37": "region_cantha"
+        "37": "region_cantha",
+        "48": "1510"
     },
     "special": {
         "1068": "gh_hollow",
@@ -1373,6 +1396,8 @@ registry_dict_v2 = {
         "1432": "strike_aetherblade",
         "1437": "strike_harvest",
         "1485": "strike_lion",
+        "1515": "strike_cosmic_observatory",
+        "1520": "strike_temple_of_febe",
 	"943": "tower_of_nightmares",
 	"1477": "tower_of_nightmares"
     },
@@ -1493,7 +1518,10 @@ registry_dict_v2 = {
         1428,
         1438,
         1465,
-        1490
+        1490,
+        1509,
+        1510,
+        1517
     ]
 }
 
