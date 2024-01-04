@@ -7,7 +7,7 @@ from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 2.52
+CLIENT_VERSION = 2.54
 
 RANDOM_IMAGE_POOL = os.listdir("/var/www/html/gw2rpc-site/static/img/showcases/")
 
@@ -1398,6 +1398,8 @@ registry_dict_v2 = {
         "1485": "strike_lion",
         "1515": "strike_cosmic_observatory",
         "1520": "strike_temple_of_febe",
+        "1523": "convergence",
+        "1527": "convergence",
 	"943": "tower_of_nightmares",
 	"1477": "tower_of_nightmares"
     },
@@ -1521,7 +1523,8 @@ registry_dict_v2 = {
         1490,
         1509,
         1510,
-        1517
+        1517,
+        1526
     ]
 }
 
