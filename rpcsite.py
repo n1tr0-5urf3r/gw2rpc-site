@@ -818,21 +818,21 @@ registry_dict_v2 = {
             "name": "Lonely Tower",
             "bosses": [
                 {
-                    "name": "Cerus and Deimos"
+                    "name": "Cerus and Deimos",
                     "coord": [
                         1754,
-                        2471,
-                    ],   
-                    "radius": 1600,
+                        2471
+                    ],
+                    "radius": 1600
                 },
                 {
-                    "name": "Eparch"
+                    "name": "Eparch",
                     "coord": [
                         1148,
-                        2729,
+                        2729
                     ],   
-                    "radius": 1050,
-                },                
+                    "radius": 1050
+                }           
             ]
         },        
     ],
