@@ -813,6 +813,28 @@ registry_dict_v2 = {
                 }
             ]
         },
+        {
+            "id": 1538,
+            "name": "Lonely Tower",
+            "bosses": [
+                {
+                    "name": "Cerus and Deimos"
+                    "coord": [
+                        1754,
+                        2471,
+                    ],   
+                    "radius": 1600,
+                },
+                {
+                    "name": "Eparch"
+                    "coord": [
+                        1148,
+                        2729,
+                    ],   
+                    "radius": 1050,
+                },                
+            ]
+        },        
     ],
     "raids": {
         "1062": [
