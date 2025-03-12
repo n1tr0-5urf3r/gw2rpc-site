@@ -1353,6 +1353,35 @@ registry_dict_v2 = {
             "radius": 90,
             "type": "boss"
             }
+        ],
+        "1564": [
+            {
+            "coord": [
+                37890,
+                15733
+            ],
+            "id": "greer",
+            "radius": 132,
+            "type": "boss"
+            },
+            {
+            "coord": [
+                36828,
+                14896
+            ],
+            "id": "decima",
+            "radius": 113,
+            "type": "boss"
+            },
+            {
+            "coord": [
+                37519,
+                15046
+            ],
+            "id": "ura",
+            "radius": 117,
+            "type": "boss"
+            }                        
         ]
     },
     "regions": {
@@ -1368,7 +1397,8 @@ registry_dict_v2 = {
         "27": "wintersday_dr",
         "7": "38",
         "37": "region_cantha",
-        "48": "1510"
+        "48": "1510",
+        "18": "region_janthir"
     },
     "special": {
         "1068": "gh_hollow",
@@ -1422,8 +1452,10 @@ registry_dict_v2 = {
         "1520": "strike_temple_of_febe",
         "1523": "convergence",
         "1527": "convergence",
-	"943": "tower_of_nightmares",
-	"1477": "tower_of_nightmares"
+	    "943": "tower_of_nightmares",
+	    "1477": "tower_of_nightmares",
+        "1562": "1564",
+        "1571": "1564"
     },
     "mounts": {
         1: "jackal",
@@ -1546,7 +1578,11 @@ registry_dict_v2 = {
         1509,
         1510,
         1517,
-        1526
+        1526,
+        1550,
+        1554,
+        1558,
+        1564
     ]
 }
 
