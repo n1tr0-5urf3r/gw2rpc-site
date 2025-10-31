@@ -7,7 +7,7 @@ from flask import Flask, abort, jsonify, render_template, send_file, request
 
 app = Flask(__name__)
 
-CLIENT_VERSION = 2.54
+CLIENT_VERSION = 2.55
 
 RANDOM_IMAGE_POOL = os.listdir("/var/www/html/gw2rpc-site/static/img/showcases/")
 
@@ -338,6 +338,64 @@ registry_dict = {
 }
 
 registry_dict_v2 = {
+    "professions": {
+        1: "Guardian",
+        2: "Warrior",
+        3: "Engineer",
+        4: "Ranger",
+        5: "Thief",
+        6: "Elementalist",
+        7: "Mesmer",
+        8: "Necromancer",
+        9: "Revenant",
+        10: "Jade Bot"
+    },
+    "races": {
+        0: "Asura",
+        1: "Charr",
+        2: "Human",
+        3: "Norn",
+        4: "Sylvari",
+        5: "Jade Bot"
+    },
+    "elitespecs": {
+        5: "Druid",
+        7: "Daredevil",
+        18: "Berserker",
+        27: "Dragonhunter",
+        34: "Reaper",
+        40: "Chronomancer",
+        43: "Scrapper",
+        48: "Tempest",
+        52: "Herald",
+        55: "Soulbeast",
+        56: "Weaver",
+        57: "Holosmith",
+        58: "Deadeye",
+        59: "Mirage",
+        60: "Scourge",
+        61: "Spellbreaker",
+        62: "Firebrand",
+        63: "Renegade",
+        64: "Harbinger",
+        65: "Willbender",
+        66: "Virtuoso",
+        67: "Catalyst",
+        68: "Bladesworn",
+        69: "Vindicator",
+        70: "Mechanist",
+        71: "Specter",
+        72: "Untamed",
+        73: "Troubadour",
+        74: "Paragon",
+        75: "Amalgam",
+        76: "Ritualist",
+        77: "Antiquary",
+        78: "Galeshot",
+        79: "Conduit",
+        80: "Evoker",
+        81: "Luminary"
+    },
     "fractals": [
         {
             "id": 872,
@@ -1398,7 +1456,8 @@ registry_dict_v2 = {
         "7": "38",
         "37": "region_cantha",
         "48": "1510",
-        "18": "region_janthir"
+        "18": "region_janthir",
+        "50": "1206"
     },
     "special": {
         "1068": "gh_hollow",
@@ -1455,7 +1514,8 @@ registry_dict_v2 = {
 	    "943": "tower_of_nightmares",
 	    "1477": "tower_of_nightmares",
         "1562": "1564",
-        "1571": "1564"
+        "1571": "1564",
+        "1570": "1509"
     },
     "mounts": {
         1: "jackal",
