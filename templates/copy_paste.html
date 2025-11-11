@@ -20,27 +20,26 @@
   <meta property="og:url" content="http://www.gw2rpc.info">
   <meta property="og:image" content="https://gw2rpc.info/static/img/logo.png">
 </head>
-
 <body>
   <script>
     function copyToClipBoard(field) {
-      var copyText = document.getElementById(field);
+    var copyText = document.getElementById(field);
 
-      copyText.select();
-      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
-      /* Copy the text inside the text field */
-      navigator.clipboard.writeText(copyText.value);
+    /* Copy the text inside the text field */
+    navigator.clipboard.writeText(copyText.value);
 
-      // Get the snackbar DIV
-      var s = document.getElementById("snackbar");
+    // Get the snackbar DIV
+    var s = document.getElementById("snackbar");
 
-      // Add the "show" class to DIV
-      s.className = "show";
+    // Add the "show" class to DIV
+    s.className = "show";
 
-      // After 3 seconds, remove the show class from DIV
-      setTimeout(function () { s.className = s.className.replace("show", ""); }, 3000);
-      s.innerHTML = "Copied: " + copyText.value;
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function(){ s.className = s.className.replace("show", ""); }, 3000);
+    s.innerHTML = "Copied: " + copyText.value;
     }     
   </script>
   <header>
@@ -51,30 +50,27 @@
     </ul>
   </header>
   <main id="home">
-    <h1>Discord Rich Presence
-      <br> for Guild Wars 2
-    </h1>
-    <hr>
-    <h2>Chat-Code copy paste</h2>
-    <p id="desc">Click the button below to copy chatcode to your clipboard and paste it to the ingame chat.</p>
-    <h4>Closest Point of Interest</h4>
-    <textarea cols='60' rows='2' id="chatcode" disabled>{{ name }}:&#13;&#10; {{ chat_code }}</textarea>
-    <br><br>
-    <button class="copy" onclick="copyToClipBoard('chatcode')">Copy to clipboard</button>
-    <h4>Whisper</h4>
-    <textarea cols='60' rows='2' id="chatcode_whisper" disabled>/w {{ character }}</textarea>
-    <br><br>
-    <button class="copy" onclick="copyToClipBoard('chatcode_whisper')">Copy to clipboard</button>
-    <br><br>
-    <div id="snackbar"></div>
+    <h1>Discord Rich Presence 
+      <br> for Guild Wars 2</h1>
+      <hr>
+      <h2>Chat-Code copy paste</h2>
+      <p id="desc">Click the button below to copy chatcode to your clipboard and paste it to the ingame chat.</p>
+      <h4>Closest Point of Interest</h4>
+      <textarea cols='60' rows='2' id="chatcode" disabled>{{ name }}:&#13;&#10; {{ chat_code }}</textarea>
+      <br><br>
+      <button id="copy" onclick="copyToClipBoard('chatcode')">Copy to clipboard</button> 
+      <h4>Whisper</h4>
+      <textarea cols='60' rows='2' id="chatcode_whisper" disabled>/w {{ character }}</textarea>
+      <br><br>
+      <button id="copy" onclick="copyToClipBoard('chatcode_whisper')">Copy to clipboard</button> 
+      <br><br>
+      <div id="snackbar"></div> 
   </main>
   <footer>
     <p>
-      <a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365 &amp; N1tR0#0914
-    </p>
+      <a target="_blank" href="https://github.com/Maselkov/GW2RPC">GW2RPC</a> by Maselkov#2365 &amp; N1tR0#0914</p>
     <p>
-      <a target="_blank" href="https://github.com/mbacalan/gw2rpc-site">Website</a> by Penemue#8514.
-    </p>
+      <a target="_blank" href="https://github.com/mbacalan/gw2rpc-site">Website</a> by Penemue#8514.</p>
     <p>
       Translations by N1tr0 (de), Seshu (de), TheRaytheone (es), z0n3g (fr)</p>
   </footer>
